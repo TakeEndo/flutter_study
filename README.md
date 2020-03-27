@@ -251,7 +251,7 @@ new Container(
     ),
   ),
 ```
-<img width="191" alt="スクリーンショット 2018-09-07 13.35.01.png" src="images/a75ed51e-57b4-ca02-0bb0-a616f1b89823.png">
+<img width="191" alt="スクリーンショット 2018-09-07 13.35.01.png" src="./a75ed51e-57b4-ca02-0bb0-a616f1b89823.png">
 ```begin```と```end```には、それぞれ右上、右下などの```enum```を設定すれば角度を変更できる。
 
 
@@ -274,18 +274,18 @@ new Container(
 
 ### TileModeでグラデーションの繰り返し方法を指定できる
 #### .clamp
-<img width="195" alt="スクリーンショット 2018-09-07 13.39.04.png" src="images/1642ccc8-9668-8caa-71be-b87cdef3131b.png">
+<img width="195" alt="スクリーンショット 2018-09-07 13.39.04.png" src="./1642ccc8-9668-8caa-71be-b87cdef3131b.png">
 
 #### .mirror
-<img width="191" alt="スクリーンショット 2018-09-07 13.39.15.png" src="images/a25b8025-3b92-9b4f-0a98-07ac36550a27.png">
+<img width="191" alt="スクリーンショット 2018-09-07 13.39.15.png" src="./a25b8025-3b92-9b4f-0a98-07ac36550a27.png">
 
 #### .repeated
-<img width="194" alt="スクリーンショット 2018-09-07 13.38.47.png" src="images/19ef1077-1fca-dfcb-78df-9ed0d7899af1.png">
+<img width="194" alt="スクリーンショット 2018-09-07 13.38.47.png" src="./19ef1077-1fca-dfcb-78df-9ed0d7899af1.png">
 きもい。
 
 ## 3. Sweepグラデーション
 こういうやつ
-<img width="189" alt="スクリーンショット 2018-09-07 14.25.12.png" src="images/31826b29-c569-7f38-0797-5c39fbea0d65.png">
+<img width="189" alt="スクリーンショット 2018-09-07 14.25.12.png" src="./31826b29-c569-7f38-0797-5c39fbea0d65.png">
 
 ```SweepGradientSample.dart
   decoration: BoxDecoration(
@@ -304,11 +304,11 @@ new Container(
 ### これもTileModeあります。
 #### .mirror
 
-<img width="192" alt="スクリーンショット 2018-09-07 14.30.45.png" src="images/bf77b4ab-8e96-444a-c56a-69c26aed63cc.png">
+<img width="192" alt="スクリーンショット 2018-09-07 14.30.45.png" src="./bf77b4ab-8e96-444a-c56a-69c26aed63cc.png">
 目がっ！目がぁっ！
 
 #### .repeated
-<img width="191" alt="スクリーンショット 2018-09-07 14.29.57.png" src="images/9505054b-3a7e-3552-f08e-43ea9bdf8ef8.png">
+<img width="191" alt="スクリーンショット 2018-09-07 14.29.57.png" src="./9505054b-3a7e-3552-f08e-43ea9bdf8ef8.png">
 
 
 # ディレイをかけてアニメーションをスタートさせたい
@@ -675,12 +675,12 @@ class Painter extends CustomPainter{
 ```
 
  これを実行すると、こうなります。
-<img width="370" alt="スクリーンショット 2018-09-23 23.21.02.png" src="images/59697da5-2b32-026f-29b6-2af2c6a56c8d.png">
+<img width="370" alt="スクリーンショット 2018-09-23 23.21.02.png" src="./59697da5-2b32-026f-29b6-2af2c6a56c8d.png">
 
 最後に指定している```1.3```は重みらしく、1を指定すると、パラボラって書いてある。なにそれ。
 わかりやすいように、0.3を指定すると、こうなります。
 
-<img width="210" alt="スクリーンショット 2018-09-23 23.24.44.png" src="images/6ade3537-6c0a-efd5-72ff-2574559ba5ae.png">
+<img width="210" alt="スクリーンショット 2018-09-23 23.24.44.png" src="./6ade3537-6c0a-efd5-72ff-2574559ba5ae.png">
 
 カーブがちょっと緩くなりますね。
 
@@ -700,7 +700,7 @@ class Painter extends CustomPainter{
 
 繋げるとこうなります。
 
-<img width="366" alt="スクリーンショット 2018-09-23 23.27.12.png" src="images/7cdc8997-7398-5239-1710-7e9581f05b1a.png">
+<img width="366" alt="スクリーンショット 2018-09-23 23.27.12.png" src="./7cdc8997-7398-5239-1710-7e9581f05b1a.png">
 
 
 あとは色々できますね。
@@ -710,10 +710,10 @@ class Painter extends CustomPainter{
 さて、```path```にはcloseという関数があります。
 これは、最後のポイントと、最初のポイントをつないでくれます。
 
-<img width="312" alt="スクリーンショット 2018-09-23 23.30.06.png" src="images/b51a457c-b03d-d9d9-ea6b-1ea5e8e0c289.png">
+<img width="312" alt="スクリーンショット 2018-09-23 23.30.06.png" src="./b51a457c-b03d-d9d9-ea6b-1ea5e8e0c289.png">
 
 Paintのstyleを```PaintingStyle.fill```にすると、塗りつぶしてくれます。
-<img width="297" alt="スクリーンショット 2018-09-23 23.34.04.png" src="images/f66dbf48-391a-4e80-b98f-ba8c3de5dd22.png">
+<img width="297" alt="スクリーンショット 2018-09-23 23.34.04.png" src="./f66dbf48-391a-4e80-b98f-ba8c3de5dd22.png">
 
 というか、デフォルトが塗りつぶしなので、線を引きたければ```stroke```にしてください。
 繋がっていないpathは、fillの場合描画されないので、ちょっと焦ります。
@@ -728,7 +728,7 @@ p.maskFilter = MaskFilter.blur(BlurStyle.outer, 10.0);
 ```
 こんな指定をする。
 
-<img width="301" alt="スクリーンショット 2018-09-23 23.38.39.png" src="images/e31a896f-2470-556e-1d87-6db1d247ed51.png">
+<img width="301" alt="スクリーンショット 2018-09-23 23.38.39.png" src="./e31a896f-2470-556e-1d87-6db1d247ed51.png">
 
 外側にブラーをかけてくれます。
 
@@ -740,7 +740,7 @@ p.maskFilter = MaskFilter.blur(BlurStyle.outer, 10.0);
 p.maskFilter = MaskFilter.blur(BlurStyle.inner, 20.0);
 ```
 
-<img width="305" alt="スクリーンショット 2018-09-23 23.39.41.png" src="images/ca1d4b8d-a6eb-2f76-5368-200728e85cec.png">
+<img width="305" alt="スクリーンショット 2018-09-23 23.39.41.png" src="./ca1d4b8d-a6eb-2f76-5368-200728e85cec.png">
 
 
 ### BlurStyle.normal
@@ -752,7 +752,7 @@ p.maskFilter = MaskFilter.blur(BlurStyle.inner, 20.0);
 p.maskFilter = MaskFilter.blur(BlurStyle.normal, 20.0);
 ```
 
-<img width="320" alt="スクリーンショット 2018-09-23 23.41.30.png" src="images/eff58222-9ef8-2d12-786c-e2b020327239.png">
+<img width="320" alt="スクリーンショット 2018-09-23 23.41.30.png" src="./eff58222-9ef8-2d12-786c-e2b020327239.png">
 
 
 ### BlurStyle.solid
@@ -763,7 +763,7 @@ p.maskFilter = MaskFilter.blur(BlurStyle.normal, 20.0);
 p.maskFilter = MaskFilter.blur(BlurStyle.solid, 20.0);
 ```
 
-<img width="302" alt="スクリーンショット 2018-09-23 23.42.13.png" src="images/b1aba6ab-fa8f-437d-ba8f-434cdbd214f9.png">
+<img width="302" alt="スクリーンショット 2018-09-23 23.42.13.png" src="./b1aba6ab-fa8f-437d-ba8f-434cdbd214f9.png">
 
 
 
